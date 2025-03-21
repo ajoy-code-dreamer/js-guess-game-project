@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    list-style: 0.8;
+}
+.game_container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.player_name{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.error_text{
+    color: red;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.player_1_inp,.player_1_btn,.player_2_inp,.player_3_inp,.player_2_btn,.player_3_btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.player_2_inp,.player_3_inp,.player_2_btn,.player_3_btn{
+    display: none;
+    
+}
+
+.chance{
+    font-size: 20px;
+    padding: 10px 0;
+    color: green;
+}
